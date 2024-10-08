@@ -1,0 +1,20 @@
+.retired {
+  background-color: rgb(255, 160, 160);
+}
+.active {
+  background-color: rgb(168, 255, 168);
+}
+.item {
+  width: 200px;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 20px;
+}
